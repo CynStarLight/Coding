@@ -20,7 +20,7 @@ async function query(data) {
 			body: JSON.stringify(data),
 		}
 	);
-	const result = await response.blob();
+	const result = await response.json();
 	return result;
 }
 
