@@ -29,7 +29,7 @@ function addBubbleEvent(bubble){
             type: "arrayBuffer"
         }
         
-        fetch('https://api.elevenlabs.io/v1/text-to-speech/uju3wxzG5OhpWcoi35My', options)
+        fetch('https://api.elevenlabs.io/v1/text-to-speech/uju3wxzG5OhpWcoi3SMy', options)
             .then(async (response) => {
                 const arrayBuffer = await response.arrayBuffer();
                 const blob = new Blob([arrayBuffer], { type: 'audio/wav' });
