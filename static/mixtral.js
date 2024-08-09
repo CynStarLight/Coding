@@ -72,7 +72,7 @@ async function submit() {
                     entry.placeholder = "Ask me a question..."
 
                     let noBlankLines = removeBlankLines(cutOff)
-                    records.push("User: " + userInput/innerHTML)
+                    records.push("User: " + userInput.innerHTML)
                     records.push("AI: " + noBlankLines)
                 } else {
                     setPlaceholder(aiContentValue);
